@@ -24,6 +24,8 @@ User access Staff Login page
 
 User login into staff login
     [Arguments]     ${staff_no}    ${password}
+    wait until element is visible    //input[@placeholder="Staff Number"]    ${TIMEOUT}
+
     input text    //input[@placeholder="Staff Number"]    ${staff_no}
     input text    //input[@placeholder="Password"]    ${password}
     click element    //button[contains(text(),"Login")]

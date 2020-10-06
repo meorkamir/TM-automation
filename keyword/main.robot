@@ -9,7 +9,7 @@ ${TIMEOUT}    10s
 
 *** Keywords ***
 user launch ${browser_type} browser
-    open browser   https://www.google.com     ${browser_type}
+    open browser    https://www.google.com     ${browser_type}
     maximize browser window
 
 user close browser

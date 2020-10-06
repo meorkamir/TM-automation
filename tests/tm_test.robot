@@ -1,8 +1,8 @@
 *** Settings ***
 Resource     ${EXECDIR}/keyword/main.robot
 
-Suite Setup        user launch ${browser_type} browser
-Suite Teardown     user close browser
+Test Setup        user launch ${browser_type} browser
+Test Teardown     user close browser
 
 *** Test Cases ***
 Test#1-- Test TM R&D website
