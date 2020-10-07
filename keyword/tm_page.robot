@@ -29,3 +29,8 @@ User login into staff login
     input text    //input[@placeholder="Staff Number"]    ${staff_no}
     input text    //input[@placeholder="Password"]    ${password}
     click element    //button[contains(text(),"Login")]
+
+User unable to login with invalid credential
+    page should contain    Username does not exist.    ${TIMEOUT}
+
+#    wait until element is visible    //*[contains(text(),"")]
