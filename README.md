@@ -8,7 +8,7 @@ TM assessment Q2
 4) Execute command to run the script  
    robot --outputdir ..\report -v browser_type:chrome  tests   (run entire test case inside test folder)  
    robot --outputdir ..\report -v browser_type:chrome -i "testShopee"  tests   (tagging -i to selectively run any test case)  
-5) Retrieve execution output from folder
+5) Retrieve execution output from given folder path in command
 
 ## Acknowledgement
 1) Robotframework https://robotframework.org 
