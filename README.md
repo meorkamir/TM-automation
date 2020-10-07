@@ -10,5 +10,8 @@ TM assessment Q2
    robot --outputdir ..\report -v browser_type:chrome -i "testShopee"  tests   (tagging -i to selectively run any test case)  
 5) Retrieve execution output from given folder path in command
 
+### Example result
+![Screenshot](Q2_passed.png)
+
 ## Acknowledgement
 1) Robotframework https://robotframework.org 
